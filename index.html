@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Guía de Rodaje</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f5efe7;
+padding:20px;
+color:#222;
+}
+
+h1{
+color:#7a4b36;
+}
+
+.bloque{
+background:#fff;
+border-radius:14px;
+padding:16px;
+margin:16px 0;
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+label{
+display:block;
+margin:10px 0;
+}
+
+textarea{
+width:100%;
+min-height:80px;
+border-radius:10px;
+padding:10px;
+}
+
+button{
+background:#7a4b36;
+color:#fff;
+border:0;
+padding:12px 16px;
+border-radius:10px;
+}
+
+summary{
+font-weight:bold;
+font-size:20px;
+cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+
+<h1>🎬 Guía de Rodaje · Legado de Abuela</h1>
+
+<p>Checklist de grabación para Daniela y Abuela.</p>
+
+<div class="bloque">
+<details open>
+<summary>Día 1 — Infancia de Abuela</summary>
+
+<label><input type="checkbox"> ¿Cómo eras tú de pequeña?</label>
+<label><input type="checkbox"> ¿Cómo era tu casa?</label>
+<label><input type="checkbox"> ¿A qué jugabas?</label>
+<label><input type="checkbox"> ¿Había móviles?</label>
+<label><input type="checkbox"> ¿Qué hacías para divertirte?</label>
+
+<textarea placeholder="Notas de rodaje"></textarea>
+
+</details>
+</div>
+
+<div class="bloque">
+<details>
+<summary>Día 2 — Familia y Juventud</summary>
+
+<label><input type="checkbox"> ¿Cómo era tu mamá?</label>
+<label><input type="checkbox"> ¿Y tu papá?</label>
+<label><input type="checkbox"> ¿Tenías hermanos?</label>
+<label><input type="checkbox"> ¿La vida era fácil o difícil?</label>
+
+<textarea placeholder="Notas de rodaje"></textarea>
+
+</details>
+</div>
+
+<div class="bloque">
+<details>
+<summary>Día 3 — Abuelo y Boda</summary>
+
+<label><input type="checkbox"> ¿Cómo conociste al abuelo?</label>
+<label><input type="checkbox"> ¿Por qué te gustó?</label>
+<label><input type="checkbox"> ¿Cómo fue tu boda?</label>
+<label><input type="checkbox"> ¿Cómo era el abuelo?</label>
+
+<textarea placeholder="Notas de rodaje"></textarea>
+
+</details>
+</div>
+
+<div class="bloque">
+<details>
+<summary>Día 4 — Hijos y Gustavo</summary>
+
+<label><input type="checkbox"> ¿Cómo era mi papá de pequeño?</label>
+<label><input type="checkbox"> ¿Era travieso?</label>
+<label><input type="checkbox"> ¿Cómo era la vida en 1976?</label>
+
+<textarea placeholder="Notas de rodaje"></textarea>
+
+</details>
+</div>
+
+<div class="bloque">
+<details>
+<summary>Día 5 — Daniela y Legado</summary>
+
+<label><input type="checkbox"> ¿Te acuerdas cuando nací yo?</label>
+<label><input type="checkbox"> ¿Qué quieres para mí?</label>
+<label><input type="checkbox"> ¿Has sido feliz?</label>
+
+<textarea placeholder="Notas de rodaje"></textarea>
+
+</details>
+</div>
+
+<button onclick="alert('✅ Rodaje guardado')">
+Finalizar bloque
+</button>
+
+</body>
+</html>
